@@ -1,2 +1,5 @@
 
-.
+DeleteWatch, silme (deletion) loglarını simüle eden ve bu loglar üzerinde temel veri işleme ve kontrol adımlarını uygulayan küçük ölçekli bir veri pipeline projesidir. Projede sentetik log verileri üretilmiş, JSON formatındaki ham veriler parse edilerek temizlenmiş ve analiz için uygun hale getirilmiştir. Timestamp dönüşümleri, hassasiyet (sensitivity) eşlemesi, mesai dışı kontrolü gibi temel feature engineering adımları uygulanmıştır. Ayrıca veri kalitesini sağlamak için kolon kontrolü, benzersizlik ve null kontrolleri içeren bir doğrulama (validation) katmanı eklenmiştir. Amaç, basit bir log izleme senaryosu üzerinden ETL mantığını ve modüler proje yapısını pratik etmektir.
+------
+
+DeleteWatch is a small-scale data pipeline project that simulates deletion logs and applies basic data processing and validation steps. Synthetic log data is generated, raw JSON logs are parsed and cleaned, and additional features such as timestamp transformation, sensitivity mapping, and out-of-hours detection are added for analysis. A validation layer ensures data quality through column checks, uniqueness verification, and null detection. The main purpose of the project is to practice ETL fundamentals and modular pipeline design through a simple log monitoring scenario.

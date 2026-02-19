@@ -2,13 +2,17 @@
 __pycache__/
 *.py[cod]
 *.so
+
+
 *.egg-info/
 dist/
 build/
 
+
 venv/
 .venv/
 env/
+
 
 .vscode/
 .idea/
@@ -19,15 +23,22 @@ env/
 *.db
 *.sqlite
 
-data/raw/*
-data/processed/*
-reports/*
-output/*
-*.csv
-*.xlsx
 
 *.log
 logs/
 
+
 .env
 .env.*
+
+
+data/raw/*
+data/processed/*
+reports/*
+output/*
+
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!reports/.gitkeep
+!output/.gitkeep

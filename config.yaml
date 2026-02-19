@@ -1,0 +1,21 @@
+
+simulation:
+  days: 3
+  min_daily_events: 15
+  max_daily_events: 30
+  mass_deletion_size: 50
+  random_seed: 42
+
+thresholds:
+  out_of_hours_start: 20
+  out_of_hours_end: 6
+
+sensitivity_levels:
+  customer_data: 10
+  financial_records: 8
+  product_catalog: 3
+  user_sessions: 2
+  system_logs: 1
+
+environment: production
+schema: public
